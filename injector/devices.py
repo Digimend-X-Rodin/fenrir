@@ -599,8 +599,8 @@ DEVICES = [
             ),
             'bypass_lock_control': PatchStage(
                 'bypass_lock_control',
-                pattern='00 74 3d 91 c3 00 00 14 e8 0f 40 b9 1f 05 00 71 21 01 00 54',
-                replacement='00 74 3d 91 c3 00 00 14 e8 0f 40 b9 1f 05 00 71 09 00 00 14',
+                pattern='00 d0 3d 91 c3 00 00 14 e8 0f 40 b9 1f 05 00 71 21 01 00 54',
+                replacement='00 d0 3d 91 c3 00 00 14 e8 0f 40 b9 1f 05 00 71 09 00 00 14',
                 match_mode=MatchMode.ALL,
                 description='Allow fastboot flashing regardless of lock state',
             ),
