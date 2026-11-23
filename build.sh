@@ -17,9 +17,9 @@ else
     BOOTLOADER="bin/${DEVICE_LOWER}.bin"
 fi
 
-TOOLCHAIN_URL="https://gitlab.arm.com/api/v4/projects/tooling%2Fgnu-toolchains-for-arm/packages/generic/gnu-toolchain/15.3.rel1/arm-gnu-toolchain-15.3.rel1-x86_64-aarch64-none-elf.tar.xz"
-TOOLCHAIN_ARCHIVE="arm-gnu-toolchain-15.3.rel1-x86_64-aarch64-none-elf.tar.xz"
-TOOLCHAIN_DIR="arm-gnu-toolchain-15.3.rel1-x86_64-aarch64-none-elf"
+TOOLCHAIN_URL="https://gitlab.arm.com/api/v4/projects/tooling%2Fgnu-toolchains-for-arm/packages/generic/gnu-toolchain/15.3.rel2/arm-gnu-toolchain-15.3.rel2-x86_64-aarch64-none-elf.tar.xz"
+TOOLCHAIN_ARCHIVE="arm-gnu-toolchain-15.3.rel2-x86_64-aarch64-none-elf.tar.xz"
+TOOLCHAIN_DIR="arm-gnu-toolchain-15.3.rel2-x86_64-aarch64-none-elf"
 TOOLCHAIN_PATH="$(pwd)/$TOOLCHAIN_DIR/bin"
 
 if [ ! -d "$TOOLCHAIN_PATH" ]; then
